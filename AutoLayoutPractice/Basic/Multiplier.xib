@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController id="cFo-ZZ-fIK" customClass="ViewController" customModule="AutoLayoutPractice" customModuleProvider="target">
+            <view key="view" contentMode="scaleToFill" id="LnZ-iZ-VNJ">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WeatherBG_Sun" translatesAutoresizingMaskIntoConstraints="NO" id="FPf-3U-Fo9">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40º" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nhj-kP-E4I">
+                        <rect key="frame" x="164.66666666666666" y="295.66666666666669" width="64" height="48"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <viewLayoutGuide key="safeArea" id="6pI-2S-Ujm"/>
+                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                <constraints>
+                    <constraint firstItem="FPf-3U-Fo9" firstAttribute="leading" secondItem="6pI-2S-Ujm" secondAttribute="leading" id="2gc-vP-OjP"/>
+                    <constraint firstItem="6pI-2S-Ujm" firstAttribute="trailing" secondItem="FPf-3U-Fo9" secondAttribute="trailing" id="IQW-xB-0cq"/>
+                    <constraint firstItem="nhj-kP-E4I" firstAttribute="centerY" secondItem="LnZ-iZ-VNJ" secondAttribute="centerY" multiplier="0.75" id="aaU-kw-4J3"/>
+                    <constraint firstItem="FPf-3U-Fo9" firstAttribute="top" secondItem="LnZ-iZ-VNJ" secondAttribute="top" id="fQP-fZ-V8H"/>
+                    <constraint firstItem="nhj-kP-E4I" firstAttribute="centerX" secondItem="LnZ-iZ-VNJ" secondAttribute="centerX" id="sXx-vs-P6K"/>
+                    <constraint firstAttribute="bottom" secondItem="FPf-3U-Fo9" secondAttribute="bottom" id="xm6-Dn-ZjG"/>
+                </constraints>
+            </view>
+            <point key="canvasLocation" x="121" y="-2"/>
+        </viewController>
+    </objects>
+    <resources>
+        <image name="WeatherBG_Sun" width="750" height="1334"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

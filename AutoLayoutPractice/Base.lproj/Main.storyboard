@@ -15,27 +15,8 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WeatherBG_Sun" translatesAutoresizingMaskIntoConstraints="NO" id="KTU-kd-9qq">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40º" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dq4-PT-asJ">
-                                <rect key="frame" x="164.66666666666666" y="295.66666666666669" width="64" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="KTU-kd-9qq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4KQ-K8-Vkp"/>
-                            <constraint firstItem="dq4-PT-asJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.75" id="W1V-4F-h2k"/>
-                            <constraint firstAttribute="bottom" secondItem="KTU-kd-9qq" secondAttribute="bottom" id="ZuR-Yu-fxx"/>
-                            <constraint firstItem="KTU-kd-9qq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ofc-pt-cDO"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KTU-kd-9qq" secondAttribute="trailing" id="sWv-Mj-sUm"/>
-                            <constraint firstItem="dq4-PT-asJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vmx-OH-hiI"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -44,7 +25,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="WeatherBG_Sun" width="750" height="1334"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
