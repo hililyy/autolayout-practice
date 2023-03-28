@@ -17,6 +17,7 @@
 		2A78F6E229D23E35004CB787 /* HuggingPrioirty.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A78F6E129D23E35004CB787 /* HuggingPrioirty.xib */; };
 		2A78F6E429D26564004CB787 /* CompressionResistance.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A78F6E329D26564004CB787 /* CompressionResistance.xib */; };
 		2A78F6E829D2682E004CB787 /* PrioirtyConstraints.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A78F6E729D2682E004CB787 /* PrioirtyConstraints.xib */; };
+		2A78F6EA29D26CA6004CB787 /* Rotation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A78F6E929D26CA6004CB787 /* Rotation.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		2A78F6E129D23E35004CB787 /* HuggingPrioirty.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuggingPrioirty.xib; sourceTree = "<group>"; };
 		2A78F6E329D26564004CB787 /* CompressionResistance.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompressionResistance.xib; sourceTree = "<group>"; };
 		2A78F6E729D2682E004CB787 /* PrioirtyConstraints.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrioirtyConstraints.xib; sourceTree = "<group>"; };
+		2A78F6E929D26CA6004CB787 /* Rotation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Rotation.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				2A78F6E129D23E35004CB787 /* HuggingPrioirty.xib */,
 				2A78F6E329D26564004CB787 /* CompressionResistance.xib */,
 				2A78F6E729D2682E004CB787 /* PrioirtyConstraints.xib */,
+				2A78F6E929D26CA6004CB787 /* Rotation.xib */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				2A78F6E429D26564004CB787 /* CompressionResistance.xib in Resources */,
 				2A6A3F0A29D21B4600AA163F /* Assets.xcassets in Resources */,
 				2A78F6E029D23E28004CB787 /* Multiplier.xib in Resources */,
+				2A78F6EA29D26CA6004CB787 /* Rotation.xib in Resources */,
 				2A6A3F0829D21B4300AA163F /* Main.storyboard in Resources */,
 				2A78F6E229D23E35004CB787 /* HuggingPrioirty.xib in Resources */,
 			);
