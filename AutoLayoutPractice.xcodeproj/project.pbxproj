@@ -15,6 +15,7 @@
 		2A6A3F0D29D21B4600AA163F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6A3F0B29D21B4600AA163F /* LaunchScreen.storyboard */; };
 		2A78F6E029D23E28004CB787 /* Multiplier.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A78F6DF29D23E28004CB787 /* Multiplier.xib */; };
 		2A78F6E229D23E35004CB787 /* HuggingPrioirty.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A78F6E129D23E35004CB787 /* HuggingPrioirty.xib */; };
+		2A78F6E429D26564004CB787 /* CompressionResistance.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A78F6E329D26564004CB787 /* CompressionResistance.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2A6A3F0E29D21B4600AA163F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A78F6DF29D23E28004CB787 /* Multiplier.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Multiplier.xib; sourceTree = "<group>"; };
 		2A78F6E129D23E35004CB787 /* HuggingPrioirty.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuggingPrioirty.xib; sourceTree = "<group>"; };
+		2A78F6E329D26564004CB787 /* CompressionResistance.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompressionResistance.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				2A78F6DF29D23E28004CB787 /* Multiplier.xib */,
 				2A78F6E129D23E35004CB787 /* HuggingPrioirty.xib */,
+				2A78F6E329D26564004CB787 /* CompressionResistance.xib */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A6A3F0D29D21B4600AA163F /* LaunchScreen.storyboard in Resources */,
+				2A78F6E429D26564004CB787 /* CompressionResistance.xib in Resources */,
 				2A6A3F0A29D21B4600AA163F /* Assets.xcassets in Resources */,
 				2A78F6E029D23E28004CB787 /* Multiplier.xib in Resources */,
 				2A6A3F0829D21B4300AA163F /* Main.storyboard in Resources */,
