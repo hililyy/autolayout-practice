@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A32FF1A29D2859E00DFBB40 /* ScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A32FF1929D2859E00DFBB40 /* ScrollView.xib */; };
 		2A6A3F0129D21B4300AA163F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A3F0029D21B4300AA163F /* AppDelegate.swift */; };
 		2A6A3F0329D21B4300AA163F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A3F0229D21B4300AA163F /* SceneDelegate.swift */; };
 		2A6A3F0529D21B4300AA163F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A3F0429D21B4300AA163F /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A32FF1929D2859E00DFBB40 /* ScrollView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollView.xib; sourceTree = "<group>"; };
 		2A6A3EFD29D21B4300AA163F /* AutoLayoutPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6A3F0029D21B4300AA163F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A6A3F0229D21B4300AA163F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				2A78F6E329D26564004CB787 /* CompressionResistance.xib */,
 				2A78F6E729D2682E004CB787 /* PrioirtyConstraints.xib */,
 				2A78F6E929D26CA6004CB787 /* Rotation.xib */,
+				2A32FF1929D2859E00DFBB40 /* ScrollView.xib */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				2A78F6E429D26564004CB787 /* CompressionResistance.xib in Resources */,
 				2A6A3F0A29D21B4600AA163F /* Assets.xcassets in Resources */,
 				2A78F6E029D23E28004CB787 /* Multiplier.xib in Resources */,
+				2A32FF1A29D2859E00DFBB40 /* ScrollView.xib in Resources */,
 				2A78F6EA29D26CA6004CB787 /* Rotation.xib in Resources */,
 				2A6A3F0829D21B4300AA163F /* Main.storyboard in Resources */,
 				2A78F6E229D23E35004CB787 /* HuggingPrioirty.xib in Resources */,
