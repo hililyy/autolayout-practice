@@ -20,6 +20,7 @@
 		2A78F6E829D2682E004CB787 /* PrioirtyConstraints.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A78F6E729D2682E004CB787 /* PrioirtyConstraints.xib */; };
 		2A78F6EA29D26CA6004CB787 /* Rotation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A78F6E929D26CA6004CB787 /* Rotation.xib */; };
 		2AD0AC1829E6E1BC00709ECC /* Margin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD0AC1729E6E1BC00709ECC /* Margin.xib */; };
+		2AD0AC1A29E6E53300709ECC /* StackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD0AC1929E6E53300709ECC /* StackView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		2A78F6E729D2682E004CB787 /* PrioirtyConstraints.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrioirtyConstraints.xib; sourceTree = "<group>"; };
 		2A78F6E929D26CA6004CB787 /* Rotation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Rotation.xib; sourceTree = "<group>"; };
 		2AD0AC1729E6E1BC00709ECC /* Margin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Margin.xib; sourceTree = "<group>"; };
+		2AD0AC1929E6E53300709ECC /* StackView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StackView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				2A78F6E929D26CA6004CB787 /* Rotation.xib */,
 				2A32FF1929D2859E00DFBB40 /* ScrollView.xib */,
 				2AD0AC1729E6E1BC00709ECC /* Margin.xib */,
+				2AD0AC1929E6E53300709ECC /* StackView.xib */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				2A6A3F0D29D21B4600AA163F /* LaunchScreen.storyboard in Resources */,
 				2A78F6E429D26564004CB787 /* CompressionResistance.xib in Resources */,
 				2A6A3F0A29D21B4600AA163F /* Assets.xcassets in Resources */,
+				2AD0AC1A29E6E53300709ECC /* StackView.xib in Resources */,
 				2A78F6E029D23E28004CB787 /* Multiplier.xib in Resources */,
 				2A32FF1A29D2859E00DFBB40 /* ScrollView.xib in Resources */,
 				2A78F6EA29D26CA6004CB787 /* Rotation.xib in Resources */,
