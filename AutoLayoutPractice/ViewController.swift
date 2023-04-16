@@ -19,5 +19,15 @@ class ViewController: UIViewController {
         myButton.translatesAutoresizingMaskIntoConstraints = false
         myButton.centerXAnchor.constraint(equalTo: self.view.centerXAnchor, constant: 100).isActive = true
         myButton.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
+        
+        
+        let myLabel = UILabel.init()
+        myLabel.text = "My Label"
+        
+        self.view.addSubview(myLabel)
+        myLabel.translatesAutoresizingMaskIntoConstraints = false
+        
+        myLabel.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor, constant: 20).isActive = true
+        myLabel.leftAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leftAnchor, constant: 20).isActive = true
     }
 }
