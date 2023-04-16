@@ -23,6 +23,7 @@
 		2AD0AC1A29E6E53300709ECC /* StackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD0AC1929E6E53300709ECC /* StackView.xib */; };
 		2AD0AC1C29E6E7F300709ECC /* ButtonInset1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD0AC1B29E6E7F300709ECC /* ButtonInset1.xib */; };
 		2AD0AC4829EC2E7600709ECC /* ImageResolution.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD0AC4729EC2E7600709ECC /* ImageResolution.xib */; };
+		2AD0AC4A29EC2F5E00709ECC /* ButtonInset2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD0AC4929EC2F5E00709ECC /* ButtonInset2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		2AD0AC1929E6E53300709ECC /* StackView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StackView.xib; sourceTree = "<group>"; };
 		2AD0AC1B29E6E7F300709ECC /* ButtonInset1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonInset1.xib; sourceTree = "<group>"; };
 		2AD0AC4729EC2E7600709ECC /* ImageResolution.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageResolution.xib; sourceTree = "<group>"; };
+		2AD0AC4929EC2F5E00709ECC /* ButtonInset2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonInset2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				2AD0AC1929E6E53300709ECC /* StackView.xib */,
 				2AD0AC1B29E6E7F300709ECC /* ButtonInset1.xib */,
 				2AD0AC4729EC2E7600709ECC /* ImageResolution.xib */,
+				2AD0AC4929EC2F5E00709ECC /* ButtonInset2.xib */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				2AD0AC1A29E6E53300709ECC /* StackView.xib in Resources */,
 				2AD0AC4829EC2E7600709ECC /* ImageResolution.xib in Resources */,
 				2A78F6E029D23E28004CB787 /* Multiplier.xib in Resources */,
+				2AD0AC4A29EC2F5E00709ECC /* ButtonInset2.xib in Resources */,
 				2A32FF1A29D2859E00DFBB40 /* ScrollView.xib in Resources */,
 				2A78F6EA29D26CA6004CB787 /* Rotation.xib in Resources */,
 				2A6A3F0829D21B4300AA163F /* Main.storyboard in Resources */,
