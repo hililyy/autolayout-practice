@@ -45,7 +45,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         dataModels[indexPath.row].isExpand = !dataModels[indexPath.row].isExpand
         
+        UIView.setAnimationsEnabled(false)
         tableView.reloadRows(at: [indexPath], with: .none)
+        UIView.setAnimationsEnabled(true)
     }
 }
 
@@ -54,3 +56,19 @@ struct ExpandDataModel {
     var isExpand: Bool
 }
 
+/*
+ 
+ 테이블 뷰 셀이 튀는 현상 해결 방법
+ 
+ 1. heightForRouAt 에서 정확한 높이를 지정해 확실히 해결
+ 
+ 2. tableView.reloadData()
+ 
+ 3. tableView.estimatedSectionHeaderHeight = 0
+    tableView.estimatedSectionFooterHeight = 0
+ 
+ 4. 애니메이션 효과 없애기
+    UIView.setAnimationsEnabled(false)
+    tableView.reloadRows(at: [indexPath], with: .none)
+    UIView.setAnimationsEnabled(true)
+ */
