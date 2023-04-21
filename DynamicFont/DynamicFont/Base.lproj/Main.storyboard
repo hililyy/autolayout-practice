@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,33 +13,74 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DynamicFont" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qeH-T5-c2a">
-                                <rect key="frame" x="20" y="174.33333333333334" width="353" height="503.33333333333326"/>
+                                <rect key="frame" x="20" y="172.66666666666666" width="350" height="498.66666666666674"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cert_BG" translatesAutoresizingMaskIntoConstraints="NO" id="jqF-N8-5r3">
-                                        <rect key="frame" x="0.0" y="0.0" width="353" height="503.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="498.66666666666669"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="공인인증서" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8F6-c7-Scp">
-                                        <rect key="frame" x="113.66666666666666" y="0.0" width="126" height="176.33333333333334"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="공인인증서" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="8F6-c7-Scp">
+                                        <rect key="frame" x="113.66666666666666" y="0.0" width="122.66666666666666" height="174.66666666666666"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="홍길동" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="uJK-fG-km7">
+                                        <rect key="frame" x="126" y="0.0" width="98" height="354"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="발급자 : 금융결제원" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="BMp-tn-fGd">
+                                        <rect key="frame" x="113.66666666666666" y="0.0" width="122.66666666666666" height="449"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="종  류 : 은행" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="4uZ-BL-Rwq">
+                                        <rect key="frame" x="113.66666666666666" y="0.0" width="77" height="498.66666666666669"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="만료일: 2019. 4. 5." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="R7C-tR-i5a">
+                                        <rect key="frame" x="113.66666666666669" y="0.0" width="129.66666666666663" height="548.66666666666663"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
+                                    <constraint firstItem="4uZ-BL-Rwq" firstAttribute="leading" secondItem="BMp-tn-fGd" secondAttribute="leading" id="1N5-YY-PkJ"/>
+                                    <constraint firstItem="BMp-tn-fGd" firstAttribute="centerX" secondItem="jqF-N8-5r3" secondAttribute="centerX" id="5KL-gJ-hqL"/>
+                                    <constraint firstItem="R7C-tR-i5a" firstAttribute="bottom" secondItem="jqF-N8-5r3" secondAttribute="bottom" multiplier="1.1" id="7qf-M6-aQi"/>
+                                    <constraint firstItem="R7C-tR-i5a" firstAttribute="width" secondItem="jqF-N8-5r3" secondAttribute="width" multiplier="0.37" id="HWY-OB-Oyw"/>
+                                    <constraint firstItem="BMp-tn-fGd" firstAttribute="top" secondItem="jqF-N8-5r3" secondAttribute="top" id="IR5-2z-vcp"/>
                                     <constraint firstItem="jqF-N8-5r3" firstAttribute="leading" secondItem="qeH-T5-c2a" secondAttribute="leading" id="Isk-9U-I3K"/>
                                     <constraint firstAttribute="bottom" secondItem="jqF-N8-5r3" secondAttribute="bottom" id="JGo-2v-tHY"/>
                                     <constraint firstItem="8F6-c7-Scp" firstAttribute="centerX" secondItem="jqF-N8-5r3" secondAttribute="centerX" id="Jrb-sI-hbD"/>
+                                    <constraint firstItem="R7C-tR-i5a" firstAttribute="top" secondItem="jqF-N8-5r3" secondAttribute="top" id="Qm9-FE-vCH"/>
+                                    <constraint firstItem="uJK-fG-km7" firstAttribute="bottom" secondItem="jqF-N8-5r3" secondAttribute="bottom" multiplier="0.71" id="Qrb-QA-egm"/>
+                                    <constraint firstItem="4uZ-BL-Rwq" firstAttribute="width" secondItem="jqF-N8-5r3" secondAttribute="width" multiplier="0.22" id="R6j-cE-SXc"/>
                                     <constraint firstAttribute="width" secondItem="qeH-T5-c2a" secondAttribute="height" multiplier="1009:1438" id="WEW-y5-OTy"/>
+                                    <constraint firstItem="uJK-fG-km7" firstAttribute="width" secondItem="jqF-N8-5r3" secondAttribute="width" multiplier="0.28" id="Y47-an-kH5"/>
                                     <constraint firstItem="jqF-N8-5r3" firstAttribute="top" secondItem="qeH-T5-c2a" secondAttribute="top" id="YE1-CL-Gog"/>
                                     <constraint firstItem="8F6-c7-Scp" firstAttribute="bottom" secondItem="jqF-N8-5r3" secondAttribute="bottom" multiplier="0.35" id="ZSJ-AT-62X"/>
+                                    <constraint firstItem="uJK-fG-km7" firstAttribute="top" secondItem="jqF-N8-5r3" secondAttribute="top" id="bee-fG-GCN"/>
                                     <constraint firstItem="8F6-c7-Scp" firstAttribute="top" secondItem="jqF-N8-5r3" secondAttribute="top" id="c4Z-h3-FSl"/>
                                     <constraint firstAttribute="trailing" secondItem="jqF-N8-5r3" secondAttribute="trailing" id="cNx-qW-f65"/>
+                                    <constraint firstItem="BMp-tn-fGd" firstAttribute="width" secondItem="jqF-N8-5r3" secondAttribute="width" multiplier="0.35" id="d6b-28-R18"/>
+                                    <constraint firstItem="8F6-c7-Scp" firstAttribute="width" secondItem="jqF-N8-5r3" secondAttribute="width" multiplier="0.35" id="ka9-2p-aYy"/>
+                                    <constraint firstItem="4uZ-BL-Rwq" firstAttribute="top" secondItem="jqF-N8-5r3" secondAttribute="top" id="n2J-eV-Dlh"/>
+                                    <constraint firstItem="4uZ-BL-Rwq" firstAttribute="bottom" secondItem="jqF-N8-5r3" secondAttribute="bottom" id="sEK-lr-84a"/>
+                                    <constraint firstItem="uJK-fG-km7" firstAttribute="centerX" secondItem="jqF-N8-5r3" secondAttribute="centerX" id="uaH-sw-TjX"/>
+                                    <constraint firstItem="BMp-tn-fGd" firstAttribute="bottom" secondItem="jqF-N8-5r3" secondAttribute="bottom" multiplier="0.9" id="vrT-ds-c6k"/>
+                                    <constraint firstItem="R7C-tR-i5a" firstAttribute="leading" secondItem="4uZ-BL-Rwq" secondAttribute="leading" id="xaX-es-oPZ"/>
                                 </constraints>
                             </view>
                         </subviews>
