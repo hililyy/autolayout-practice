@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DynamicFont" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qeH-T5-c2a">
+                                <rect key="frame" x="20" y="174.33333333333334" width="353" height="503.33333333333326"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cert_BG" translatesAutoresizingMaskIntoConstraints="NO" id="jqF-N8-5r3">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="503.33333333333331"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="공인인증서" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8F6-c7-Scp">
+                                        <rect key="frame" x="113.66666666666666" y="0.0" width="126" height="176.33333333333334"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="jqF-N8-5r3" firstAttribute="leading" secondItem="qeH-T5-c2a" secondAttribute="leading" id="Isk-9U-I3K"/>
+                                    <constraint firstAttribute="bottom" secondItem="jqF-N8-5r3" secondAttribute="bottom" id="JGo-2v-tHY"/>
+                                    <constraint firstItem="8F6-c7-Scp" firstAttribute="centerX" secondItem="jqF-N8-5r3" secondAttribute="centerX" id="Jrb-sI-hbD"/>
+                                    <constraint firstAttribute="width" secondItem="qeH-T5-c2a" secondAttribute="height" multiplier="1009:1438" id="WEW-y5-OTy"/>
+                                    <constraint firstItem="jqF-N8-5r3" firstAttribute="top" secondItem="qeH-T5-c2a" secondAttribute="top" id="YE1-CL-Gog"/>
+                                    <constraint firstItem="8F6-c7-Scp" firstAttribute="bottom" secondItem="jqF-N8-5r3" secondAttribute="bottom" multiplier="0.35" id="ZSJ-AT-62X"/>
+                                    <constraint firstItem="8F6-c7-Scp" firstAttribute="top" secondItem="jqF-N8-5r3" secondAttribute="top" id="c4Z-h3-FSl"/>
+                                    <constraint firstAttribute="trailing" secondItem="jqF-N8-5r3" secondAttribute="trailing" id="cNx-qW-f65"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qeH-T5-c2a" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3nc-cJ-VyU"/>
+                            <constraint firstItem="qeH-T5-c2a" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="wvR-Gw-MaD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qeH-T5-c2a" secondAttribute="trailing" constant="20" id="xIX-tG-U6x"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.64122137404578" y="4.9295774647887329"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cert_BG" width="504.5" height="719"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
