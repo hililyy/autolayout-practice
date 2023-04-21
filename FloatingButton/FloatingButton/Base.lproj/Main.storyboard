@@ -26,7 +26,12 @@
                                     <constraint firstAttribute="height" constant="60" id="nNn-Gj-iFR"/>
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" image="add_icon_green"/>
+                                <state key="normal" image="add_icon_green">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="HKr-VY-hl4" kind="presentation" modalPresentationStyle="overCurrentContext" id="Nfi-0R-MPx"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -45,14 +50,22 @@
             </objects>
             <point key="canvasLocation" x="50" y="-4"/>
         </scene>
-        <!--View Controller-->
+        <!--Floating Button List View Controller-->
         <scene sceneID="cDX-XO-FBs">
             <objects>
-                <viewController id="HKr-VY-hl4" sceneMemberID="viewController">
+                <viewController id="HKr-VY-hl4" customClass="FloatingButtonListViewController" customModule="FloatingButton" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nLE-yV-VCn">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NsM-Kd-s5D">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="8wU-yb-QZ2">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocs-DW-dkn">
                                 <rect key="frame" x="298" y="643" width="50" height="50"/>
                                 <constraints>
@@ -91,22 +104,26 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oh4-hM-QpY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="P7P-lU-opy" firstAttribute="centerX" secondItem="Qkr-oY-3rL" secondAttribute="centerX" id="3PZ-5N-c13"/>
                             <constraint firstItem="oh4-hM-QpY" firstAttribute="trailing" secondItem="P7P-lU-opy" secondAttribute="trailing" constant="40" id="CFG-OR-3kF"/>
                             <constraint firstItem="P7P-lU-opy" firstAttribute="centerX" secondItem="ocs-DW-dkn" secondAttribute="centerX" id="Kyx-Q6-kWG"/>
                             <constraint firstItem="P7P-lU-opy" firstAttribute="centerX" secondItem="zVw-I8-4Nz" secondAttribute="centerX" id="M4d-Ag-gNR"/>
                             <constraint firstItem="P7P-lU-opy" firstAttribute="centerY" secondItem="ocs-DW-dkn" secondAttribute="centerY" constant="80" id="MvF-4X-CzP"/>
+                            <constraint firstItem="NsM-Kd-s5D" firstAttribute="top" secondItem="nLE-yV-VCn" secondAttribute="top" id="TeV-6y-b3D"/>
+                            <constraint firstItem="oh4-hM-QpY" firstAttribute="trailing" secondItem="NsM-Kd-s5D" secondAttribute="trailing" id="XKX-2a-Bgw"/>
+                            <constraint firstItem="NsM-Kd-s5D" firstAttribute="leading" secondItem="oh4-hM-QpY" secondAttribute="leading" id="aI6-Mz-Gx4"/>
+                            <constraint firstAttribute="bottom" secondItem="NsM-Kd-s5D" secondAttribute="bottom" id="mYb-2n-Yip"/>
                             <constraint firstItem="oh4-hM-QpY" firstAttribute="bottom" secondItem="P7P-lU-opy" secondAttribute="bottom" constant="40" id="vem-rG-phC"/>
                             <constraint firstItem="P7P-lU-opy" firstAttribute="centerY" secondItem="zVw-I8-4Nz" secondAttribute="centerY" constant="240" id="wUM-Uf-7mT"/>
                             <constraint firstItem="P7P-lU-opy" firstAttribute="centerY" secondItem="Qkr-oY-3rL" secondAttribute="centerY" constant="160" id="yhc-rV-a8T"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="bkc-gZ-nfj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hwh-EL-oPm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="747" y="-4"/>
+            <point key="canvasLocation" x="907.63358778625945" y="-4.2253521126760569"/>
         </scene>
     </scenes>
     <resources>

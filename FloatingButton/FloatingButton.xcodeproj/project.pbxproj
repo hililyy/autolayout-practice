@@ -13,6 +13,7 @@
 		02CE7BB929F2821400F16509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02CE7BB729F2821400F16509 /* Main.storyboard */; };
 		02CE7BBB29F2821500F16509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02CE7BBA29F2821500F16509 /* Assets.xcassets */; };
 		02CE7BBE29F2821500F16509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02CE7BBC29F2821500F16509 /* LaunchScreen.storyboard */; };
+		02CE7BC629F28B7300F16509 /* FloatingButtonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CE7BC529F28B7300F16509 /* FloatingButtonListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		02CE7BBA29F2821500F16509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02CE7BBD29F2821500F16509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02CE7BBF29F2821500F16509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02CE7BC529F28B7300F16509 /* FloatingButtonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButtonListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				02CE7BB329F2821400F16509 /* SceneDelegate.swift */,
 				02CE7BB529F2821400F16509 /* ViewController.swift */,
 				02CE7BB729F2821400F16509 /* Main.storyboard */,
+				02CE7BC529F28B7300F16509 /* FloatingButtonListViewController.swift */,
 				02CE7BBA29F2821500F16509 /* Assets.xcassets */,
 				02CE7BBC29F2821500F16509 /* LaunchScreen.storyboard */,
 				02CE7BBF29F2821500F16509 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02CE7BC629F28B7300F16509 /* FloatingButtonListViewController.swift in Sources */,
 				02CE7BB629F2821400F16509 /* ViewController.swift in Sources */,
 				02CE7BB229F2821400F16509 /* AppDelegate.swift in Sources */,
 				02CE7BB429F2821400F16509 /* SceneDelegate.swift in Sources */,
