@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FloatingButton" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WeatherBG_Moon" translatesAutoresizingMaskIntoConstraints="NO" id="WkQ-eo-Emj">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4eh-sU-JGh">
+                                <rect key="frame" x="293" y="718" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="MP0-c5-5Wj"/>
+                                    <constraint firstAttribute="height" constant="60" id="nNn-Gj-iFR"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="add_icon_green"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="WkQ-eo-Emj" secondAttribute="bottom" id="aIR-rF-hip"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WkQ-eo-Emj" secondAttribute="trailing" id="dmn-yu-m55"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4eh-sU-JGh" secondAttribute="trailing" constant="40" id="jf7-an-OFJ"/>
+                            <constraint firstItem="WkQ-eo-Emj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="qiB-TC-NtV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4eh-sU-JGh" secondAttribute="bottom" constant="40" id="rc4-zj-8Va"/>
+                            <constraint firstItem="WkQ-eo-Emj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tQw-Wp-8qF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50" y="-4"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cDX-XO-FBs">
+            <objects>
+                <viewController id="HKr-VY-hl4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nLE-yV-VCn">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocs-DW-dkn">
+                                <rect key="frame" x="298" y="643" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Rvq-sB-OxG"/>
+                                    <constraint firstAttribute="width" constant="50" id="Zbo-Je-Dx0"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="food1"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qkr-oY-3rL">
+                                <rect key="frame" x="298" y="563" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Diz-dQ-Luh"/>
+                                    <constraint firstAttribute="width" constant="50" id="vsw-7Y-XTH"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="food2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zVw-I8-4Nz">
+                                <rect key="frame" x="298" y="483" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="4QS-SO-xLY"/>
+                                    <constraint firstAttribute="height" constant="50" id="aod-Yf-hVv"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="food3"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7P-lU-opy">
+                                <rect key="frame" x="293" y="718" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="PiX-em-UNW"/>
+                                    <constraint firstAttribute="height" constant="60" id="c0M-rv-87h"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="add_icon_green"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oh4-hM-QpY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="P7P-lU-opy" firstAttribute="centerX" secondItem="Qkr-oY-3rL" secondAttribute="centerX" id="3PZ-5N-c13"/>
+                            <constraint firstItem="oh4-hM-QpY" firstAttribute="trailing" secondItem="P7P-lU-opy" secondAttribute="trailing" constant="40" id="CFG-OR-3kF"/>
+                            <constraint firstItem="P7P-lU-opy" firstAttribute="centerX" secondItem="ocs-DW-dkn" secondAttribute="centerX" id="Kyx-Q6-kWG"/>
+                            <constraint firstItem="P7P-lU-opy" firstAttribute="centerX" secondItem="zVw-I8-4Nz" secondAttribute="centerX" id="M4d-Ag-gNR"/>
+                            <constraint firstItem="P7P-lU-opy" firstAttribute="centerY" secondItem="ocs-DW-dkn" secondAttribute="centerY" constant="80" id="MvF-4X-CzP"/>
+                            <constraint firstItem="oh4-hM-QpY" firstAttribute="bottom" secondItem="P7P-lU-opy" secondAttribute="bottom" constant="40" id="vem-rG-phC"/>
+                            <constraint firstItem="P7P-lU-opy" firstAttribute="centerY" secondItem="zVw-I8-4Nz" secondAttribute="centerY" constant="240" id="wUM-Uf-7mT"/>
+                            <constraint firstItem="P7P-lU-opy" firstAttribute="centerY" secondItem="Qkr-oY-3rL" secondAttribute="centerY" constant="160" id="yhc-rV-a8T"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hwh-EL-oPm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="747" y="-4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="WeatherBG_Moon" width="750" height="1334"/>
+        <image name="add_icon_green" width="482" height="481"/>
+        <image name="food1" width="256" height="256"/>
+        <image name="food2" width="256" height="256"/>
+        <image name="food3" width="256" height="256"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
