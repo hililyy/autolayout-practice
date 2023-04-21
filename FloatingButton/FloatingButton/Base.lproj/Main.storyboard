@@ -30,7 +30,7 @@
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="HKr-VY-hl4" kind="presentation" modalPresentationStyle="overCurrentContext" id="Nfi-0R-MPx"/>
+                                    <segue destination="HKr-VY-hl4" kind="presentation" animates="NO" modalPresentationStyle="overCurrentContext" modalTransitionStyle="coverVertical" id="Nfi-0R-MPx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -101,6 +101,9 @@
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="add_icon_green"/>
+                                <connections>
+                                    <action selector="dismissFloating:" destination="HKr-VY-hl4" eventType="touchUpInside" id="cQP-JX-cWC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oh4-hM-QpY"/>
@@ -120,6 +123,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="bkc-gZ-nfj"/>
+                    <connections>
+                        <outlet property="btn1CenterY" destination="MvF-4X-CzP" id="TOq-pf-Clx"/>
+                        <outlet property="btn2CenterY" destination="yhc-rV-a8T" id="act-lQ-dgI"/>
+                        <outlet property="btn3CenterY" destination="wUM-Uf-7mT" id="XbT-u8-UEo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hwh-EL-oPm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
