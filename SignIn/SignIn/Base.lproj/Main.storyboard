@@ -53,6 +53,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pup-aC-HBG">
                                 <rect key="frame" x="20" y="381.33333333333331" width="353" height="30"/>
                                 <color key="backgroundColor" red="0.089196793735027313" green="0.10308993607759476" blue="0.42714434862136841" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Sign In">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -94,6 +95,12 @@
                             <constraint firstItem="5aJ-Ad-fg7" firstAttribute="top" secondItem="kuc-PF-T9T" secondAttribute="bottom" constant="20" id="xLF-Ve-Smo"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailError" destination="kuc-PF-T9T" id="iJU-fn-BHD"/>
+                        <outlet property="emailTextField" destination="Stj-47-f0L" id="IU8-9m-eHm"/>
+                        <outlet property="passwordError" destination="FTs-F3-cwZ" id="fRG-vz-stj"/>
+                        <outlet property="passwordTextField" destination="VdX-M1-06F" id="YLi-XQ-Eac"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
