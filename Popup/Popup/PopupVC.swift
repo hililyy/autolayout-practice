@@ -12,4 +12,8 @@ class PopupVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    @IBAction func closePopup(_ sender: UIButton) {
+        self.dismiss(animated: false)
+    }
 }

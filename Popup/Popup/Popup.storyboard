@@ -26,7 +26,7 @@
                                             <constraint firstAttribute="width" constant="240" id="ZaC-ec-96l"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUF-iE-8bV">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUF-iE-8bV">
                                         <rect key="frame" x="20" y="150.00000000000003" width="200" height="20.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -40,12 +40,18 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uD5-gq-o8a">
                                         <rect key="frame" x="121.33333333333331" y="244.33333333333337" width="98.666666666666686" height="35"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Ok"/>
+                                        <connections>
+                                            <action selector="closePopup:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="k86-I9-QDN"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zME-lD-0fR">
                                         <rect key="frame" x="19.999999999999993" y="244.33333333333337" width="98.333333333333314" height="35"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Calcel"/>
+                                        <connections>
+                                            <action selector="closePopup:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Jam-AT-Pc4"/>
+                                        </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="balloon_3" translatesAutoresizingMaskIntoConstraints="NO" id="4Xy-Ja-2iD">
                                         <rect key="frame" x="84.999999999999986" y="-50" width="70.000000000000014" height="100"/>
@@ -81,7 +87,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="upW-rd-hGN" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" multiplier="0.9" id="RTS-DX-8Mc"/>
                             <constraint firstItem="upW-rd-hGN" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="fea-Y3-KgB"/>

@@ -11,9 +11,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
+    @IBAction func showPopup(_ sender: UIButton) {
+        let storyBoard = UIStoryboard.init(name: "Popup", bundle: nil)
+        
+        let popupVC = storyBoard.instantiateViewController(withIdentifier: "PopupVC")
+        
+        popupVC.modalPresentationStyle = .overCurrentContext
+        
+        self.present(popupVC, animated: false)
+    }
 }
-
