@@ -20,7 +20,7 @@
                                 <rect key="frame" x="96.666666666666686" y="401" width="200" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqX-ch-mhf">
-                                        <rect key="frame" x="74.999999999999986" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <color key="backgroundColor" red="0.7936367392539978" green="0.68978762626647949" blue="0.93143624067306519" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="Qxa-f8-bwT"/>
@@ -28,7 +28,7 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <connections>
-                                            <action selector="touchBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BeS-Im-5Pd"/>
+                                            <action selector="touchBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hNJ-EU-Ho5"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -37,12 +37,12 @@
                                     <constraint firstItem="cqX-ch-mhf" firstAttribute="centerY" secondItem="v3r-33-Xe2" secondAttribute="centerY" id="1SF-ne-0HZ"/>
                                     <constraint firstAttribute="width" constant="200" id="5yn-Is-cbb"/>
                                     <constraint firstAttribute="height" constant="50" id="bWO-WU-8Ws"/>
-                                    <constraint firstItem="cqX-ch-mhf" firstAttribute="centerX" secondItem="v3r-33-Xe2" secondAttribute="centerX" id="x3t-8g-Hpf"/>
+                                    <constraint firstItem="cqX-ch-mhf" firstAttribute="centerX" secondItem="v3r-33-Xe2" secondAttribute="centerX" constant="-75" id="x3t-8g-Hpf"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="v3r-33-Xe2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7hN-4Q-I7f"/>
                             <constraint firstItem="v3r-33-Xe2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RV3-u5-O6f"/>
@@ -60,9 +60,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemGray6Color">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

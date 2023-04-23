@@ -15,9 +15,21 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        switchBtn.layer.cornerRadius = switchBtn.bounds.width / 2
+        switchBG.layer.cornerRadius = switchBG.bounds.height / 2
     }
-    
+
     @IBAction func touchBtn(_ sender: UIButton) {
         
+        UIView.animate(withDuration: 0.3) {
+            if self.btnCenterX.constant == 75 {
+                self.btnCenterX.constant = -75
+                self.view.backgroundColor = .lightGray
+            } else {
+                self.btnCenterX.constant = 75
+                self.view.backgroundColor = .white
+            }
+            self.view.layoutIfNeeded()
+        }
     }
 }
