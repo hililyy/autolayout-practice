@@ -48,6 +48,9 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="myTextView" destination="f9S-7d-cMt" id="Ebt-w4-NEO"/>
+            </connections>
             <point key="canvasLocation" x="138.93129770992365" y="75"/>
         </tableViewCell>
     </objects>

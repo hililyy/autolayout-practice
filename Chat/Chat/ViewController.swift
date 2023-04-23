@@ -9,9 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var chatTableView: UITableView!
+    @IBOutlet weak var chatTableView: UITableView! {
+        didSet {
+            chatTableView.delegate = self
+            chatTableView.dataSource = self
+            chatTableView.separatorStyle = .none
+        }
+    }
     @IBOutlet weak var inputTextView: UITextView!
     @IBOutlet weak var inputViewBottomMargin: NSLayoutConstraint!
+    
+    var chatDatas = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +37,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func sendString(_ sender: UIButton) {
+        chatDatas.append(inputTextView.text)
+        inputTextView.text = ""
         
+        let lastIndexPath = IndexPath(row: chatDatas.count - 1, section: 0)
+//        chatTableView.reloadData() // 전체 테이블 뷰 reload
+        chatTableView.insertRows(at: [lastIndexPath], with: UITableView.RowAnimation.automatic)  // 특정 테이블 뷰만 reload
+        
+        chatTableView.scrollToRow(at: lastIndexPath, at: UITableView.ScrollPosition.bottom, animated: true)
     }
     
     @objc func keyboardWillShow(noti: Notification) {
@@ -56,3 +71,26 @@ class ViewController: UIViewController {
     }
 }
 
+extension ViewController: UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return chatDatas.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        switch indexPath.row % 2 {
+        case 0:
+            let myCell = tableView.dequeueReusableCell(withIdentifier: "MyCell", for: indexPath) as! MyCell
+            myCell.myTextView.text = chatDatas[indexPath.row]
+            return myCell
+        case 1:
+            let yourCell = tableView.dequeueReusableCell(withIdentifier: "YourCell", for: indexPath) as! YourCell
+            yourCell.yourTextView.text = chatDatas[indexPath.row]
+            return yourCell
+        default:
+            break
+        }
+        return UITableViewCell()
+    }
+}
