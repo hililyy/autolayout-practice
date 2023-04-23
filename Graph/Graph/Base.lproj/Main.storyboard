@@ -65,15 +65,42 @@
                                     <constraint firstItem="F1I-A3-kQh" firstAttribute="width" secondItem="wY9-G8-zxk" secondAttribute="width" id="yZv-fD-KcF"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bP6-5q-80i">
+                                <rect key="frame" x="20" y="446" width="83" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="오름차순"/>
+                                <connections>
+                                    <action selector="style1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UAC-C0-6J0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VCA-zn-8I1">
+                                <rect key="frame" x="123" y="446" width="83" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="내림차순"/>
+                                <connections>
+                                    <action selector="style2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LJM-mm-Wy0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="VCA-zn-8I1" firstAttribute="top" secondItem="Kh9-2f-UYA" secondAttribute="bottom" constant="20" id="9BR-69-pgd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kh9-2f-UYA" secondAttribute="trailing" constant="20" id="LLW-gk-EOD"/>
                             <constraint firstItem="Kh9-2f-UYA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="NdV-qB-en3"/>
                             <constraint firstItem="Kh9-2f-UYA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="PQc-Ws-nSc"/>
+                            <constraint firstItem="bP6-5q-80i" firstAttribute="top" secondItem="Kh9-2f-UYA" secondAttribute="bottom" constant="20" id="Yo3-dH-CY9"/>
+                            <constraint firstItem="bP6-5q-80i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dmc-06-JFT"/>
+                            <constraint firstItem="VCA-zn-8I1" firstAttribute="leading" secondItem="bP6-5q-80i" secondAttribute="trailing" constant="20" id="rwn-JK-eQa"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="graph1Height" destination="dJI-Ov-QQg" id="lsY-k5-dbX"/>
+                        <outlet property="graph2Height" destination="wvN-42-apF" id="x9u-ym-G4e"/>
+                        <outlet property="graph3Height" destination="Ppk-o2-5Ql" id="9gg-8l-bZA"/>
+                        <outlet property="graph4Height" destination="XdI-Tm-d3X" id="GgV-mS-GDg"/>
+                        <outlet property="graph5Height" destination="sxG-hQ-EWR" id="xYI-7t-LLz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
