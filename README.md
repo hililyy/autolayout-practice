@@ -1,5 +1,5 @@
 # autolayout-practice
-> [해당 강의](https://www.inflearn.com/course/autolayout/dashboard)를 학습하고, 학습 코드와 내용을 기록합니다.
+> [iOS AutoLayout 완벽 가이드](https://www.inflearn.com/course/autolayout/dashboard) 강의를 학습하고, 학습 코드와 내용을 기록합니다.
 </br>
 
 ## 수강 목적
